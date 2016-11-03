@@ -1,0 +1,886 @@
+2016-10-21 20:36:59,201 [myid:] - INFO  [main:QuorumPeerConfig@124] - Reading configuration from: /home/xusheng/zookeeper-3.4.9/bin/../conf/zoo.cfg
+2016-10-21 20:36:59,204 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2016-10-21 20:36:59,205 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2016-10-21 20:36:59,205 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2016-10-21 20:36:59,205 [myid:] - WARN  [main:QuorumPeerMain@113] - Either no config or no quorum defined in config, running  in standalone mode
+2016-10-21 20:36:59,214 [myid:] - INFO  [main:QuorumPeerConfig@124] - Reading configuration from: /home/xusheng/zookeeper-3.4.9/bin/../conf/zoo.cfg
+2016-10-21 20:36:59,214 [myid:] - INFO  [main:ZooKeeperServerMain@96] - Starting server
+2016-10-21 20:36:59,219 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.9-1757313, built on 08/23/2016 06:50 GMT
+2016-10-21 20:36:59,219 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=hkucs-PowerEdge-R430-1
+2016-10-21 20:36:59,219 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.7.0_111
+2016-10-21 20:36:59,220 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2016-10-21 20:36:59,220 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+2016-10-21 20:36:59,220 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/home/xusheng/zookeeper-3.4.9/bin/../build/classes:/home/xusheng/zookeeper-3.4.9/bin/../build/lib/*.jar:/home/xusheng/zookeeper-3.4.9/bin/../lib/slf4j-log4j12-1.6.1.jar:/home/xusheng/zookeeper-3.4.9/bin/../lib/slf4j-api-1.6.1.jar:/home/xusheng/zookeeper-3.4.9/bin/../lib/netty-3.10.5.Final.jar:/home/xusheng/zookeeper-3.4.9/bin/../lib/log4j-1.2.16.jar:/home/xusheng/zookeeper-3.4.9/bin/../lib/jline-0.9.94.jar:/home/xusheng/zookeeper-3.4.9/bin/../zookeeper-3.4.9.jar:/home/xusheng/zookeeper-3.4.9/bin/../src/java/lib/*.jar:/home/xusheng/zookeeper-3.4.9/bin/../conf:
+2016-10-21 20:36:59,220 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2016-10-21 20:36:59,220 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2016-10-21 20:36:59,220 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2016-10-21 20:36:59,221 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Linux
+2016-10-21 20:36:59,222 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
+2016-10-21 20:36:59,222 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=3.16.0-30-generic
+2016-10-21 20:36:59,222 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=xusheng
+2016-10-21 20:36:59,222 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/home/xusheng
+2016-10-21 20:36:59,222 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/home/xusheng/zookeeper-3.4.9/bin
+2016-10-21 20:36:59,227 [myid:] - INFO  [main:ZooKeeperServer@815] - tickTime set to 2000
+2016-10-21 20:36:59,227 [myid:] - INFO  [main:ZooKeeperServer@824] - minSessionTimeout set to -1
+2016-10-21 20:36:59,227 [myid:] - INFO  [main:ZooKeeperServer@833] - maxSessionTimeout set to -1
+2016-10-21 20:36:59,235 [myid:] - INFO  [main:NIOServerCnxnFactory@89] - binding to port 0.0.0.0/0.0.0.0:2181
+2016-10-21 20:39:17,870 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33843
+2016-10-21 20:39:17,873 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33842
+2016-10-21 20:39:17,874 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33843; will be dropped if server is in r-o mode
+2016-10-21 20:39:17,875 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33843
+2016-10-21 20:39:17,876 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33844
+2016-10-21 20:39:17,876 [myid:] - INFO  [SyncThread:0:FileTxnLog@203] - Creating new log file: log.88
+2016-10-21 20:39:17,876 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33842; will be dropped if server is in r-o mode
+2016-10-21 20:39:17,876 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33842
+2016-10-21 20:39:17,876 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33845
+2016-10-21 20:39:17,876 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33844; will be dropped if server is in r-o mode
+2016-10-21 20:39:17,876 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33844
+2016-10-21 20:39:17,877 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33845; will be dropped if server is in r-o mode
+2016-10-21 20:39:17,877 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33845
+2016-10-21 20:39:17,879 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0000 with negotiated timeout 10000 for client /202.45.128.160:33843
+2016-10-21 20:39:17,880 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0001 with negotiated timeout 10000 for client /202.45.128.160:33842
+2016-10-21 20:39:17,881 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0002 with negotiated timeout 10000 for client /202.45.128.160:33844
+2016-10-21 20:39:17,881 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0003 with negotiated timeout 10000 for client /202.45.128.160:33845
+2016-10-21 20:39:23,047 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56545
+2016-10-21 20:39:23,047 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56546
+2016-10-21 20:39:23,047 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56545; will be dropped if server is in r-o mode
+2016-10-21 20:39:23,047 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56545
+2016-10-21 20:39:23,048 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56546; will be dropped if server is in r-o mode
+2016-10-21 20:39:23,048 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56546
+2016-10-21 20:39:23,048 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56547
+2016-10-21 20:39:23,048 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56548
+2016-10-21 20:39:23,048 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0004 with negotiated timeout 10000 for client /202.45.128.161:56545
+2016-10-21 20:39:23,049 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56547; will be dropped if server is in r-o mode
+2016-10-21 20:39:23,049 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56547
+2016-10-21 20:39:23,049 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56548; will be dropped if server is in r-o mode
+2016-10-21 20:39:23,049 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56548
+2016-10-21 20:39:23,049 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0005 with negotiated timeout 10000 for client /202.45.128.161:56546
+2016-10-21 20:39:23,050 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0006 with negotiated timeout 10000 for client /202.45.128.161:56547
+2016-10-21 20:39:23,051 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0007 with negotiated timeout 10000 for client /202.45.128.161:56548
+2016-10-21 20:39:27,591 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47182
+2016-10-21 20:39:27,592 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47183
+2016-10-21 20:39:27,592 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47182; will be dropped if server is in r-o mode
+2016-10-21 20:39:27,592 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47182
+2016-10-21 20:39:27,592 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47183; will be dropped if server is in r-o mode
+2016-10-21 20:39:27,592 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47183
+2016-10-21 20:39:27,593 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47184
+2016-10-21 20:39:27,593 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0008 with negotiated timeout 10000 for client /202.45.128.162:47182
+2016-10-21 20:39:27,593 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47184; will be dropped if server is in r-o mode
+2016-10-21 20:39:27,593 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47184
+2016-10-21 20:39:27,593 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47185
+2016-10-21 20:39:27,594 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0009 with negotiated timeout 10000 for client /202.45.128.162:47183
+2016-10-21 20:39:27,594 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47185; will be dropped if server is in r-o mode
+2016-10-21 20:39:27,594 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47185
+2016-10-21 20:39:27,594 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd000a with negotiated timeout 10000 for client /202.45.128.162:47184
+2016-10-21 20:39:27,595 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd000b with negotiated timeout 10000 for client /202.45.128.162:47185
+2016-10-21 20:40:11,035 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33849
+2016-10-21 20:40:11,036 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33849; will be dropped if server is in r-o mode
+2016-10-21 20:40:11,036 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33849
+2016-10-21 20:40:11,037 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd000c with negotiated timeout 10000 for client /202.45.128.160:33849
+2016-10-21 20:40:18,103 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0000, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 20:40:18,105 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33843 which had sessionid 0x157e73e8efd0000
+2016-10-21 20:40:18,105 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0001, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 20:40:18,105 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33842 which had sessionid 0x157e73e8efd0001
+2016-10-21 20:40:18,106 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0003, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 20:40:18,106 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33845 which had sessionid 0x157e73e8efd0003
+2016-10-21 20:40:18,106 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0002, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 20:40:18,107 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33844 which had sessionid 0x157e73e8efd0002
+2016-10-21 20:40:22,344 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56553
+2016-10-21 20:40:22,344 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56553; will be dropped if server is in r-o mode
+2016-10-21 20:40:22,344 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56553
+2016-10-21 20:40:22,345 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd000d with negotiated timeout 10000 for client /202.45.128.161:56553
+2016-10-21 20:40:28,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0002, timeout of 10000ms exceeded
+2016-10-21 20:40:28,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0000, timeout of 10000ms exceeded
+2016-10-21 20:40:28,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0001, timeout of 10000ms exceeded
+2016-10-21 20:40:28,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0003, timeout of 10000ms exceeded
+2016-10-21 20:40:28,000 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0002
+2016-10-21 20:40:28,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0000
+2016-10-21 20:40:28,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0001
+2016-10-21 20:40:28,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0003
+2016-10-21 20:40:28,871 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd000d, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 20:40:28,871 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.161:56553 which had sessionid 0x157e73e8efd000d
+2016-10-21 20:40:40,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd000d, timeout of 10000ms exceeded
+2016-10-21 20:40:40,000 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd000d
+2016-10-21 20:40:47,128 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47192
+2016-10-21 20:40:47,128 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47192; will be dropped if server is in r-o mode
+2016-10-21 20:40:47,129 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47192
+2016-10-21 20:40:47,130 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd000e with negotiated timeout 10000 for client /202.45.128.162:47192
+2016-10-21 20:49:59,611 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /127.0.0.1:49282
+2016-10-21 20:49:59,614 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /127.0.0.1:49282
+2016-10-21 20:49:59,615 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd000f with negotiated timeout 30000 for client /127.0.0.1:49282
+2016-10-21 20:50:13,572 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@649] - Got user-level KeeperException when processing sessionid:0x157e73e8efd000f type:delete cxid:0x2 zxid:0xa3 txntype:-1 reqpath:n/a Error Path:/mesos Error:KeeperErrorCode = Directory not empty for /mesos
+2016-10-21 20:51:26,954 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@649] - Got user-level KeeperException when processing sessionid:0x157e73e8efd0005 type:create cxid:0x580a0c82 zxid:0xa7 txntype:-1 reqpath:n/a Error Path:/mesos/log_replicas Error:KeeperErrorCode = NoNode for /mesos/log_replicas
+2016-10-21 20:51:26,955 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@649] - Got user-level KeeperException when processing sessionid:0x157e73e8efd0009 type:create cxid:0x580a0c93 zxid:0xa8 txntype:-1 reqpath:n/a Error Path:/mesos/log_replicas Error:KeeperErrorCode = NoNode for /mesos/log_replicas
+2016-10-21 20:51:26,957 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd000e
+2016-10-21 20:51:26,957 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd000e, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 20:51:26,957 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd000a
+2016-10-21 20:51:26,958 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.162:47192 which had sessionid 0x157e73e8efd000e
+2016-10-21 20:51:26,958 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0006
+2016-10-21 20:51:26,958 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd000a, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 20:51:26,958 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd000b
+2016-10-21 20:51:26,958 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.162:47184 which had sessionid 0x157e73e8efd000a
+2016-10-21 20:51:26,958 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0006, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 20:51:26,959 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.161:56547 which had sessionid 0x157e73e8efd0006
+2016-10-21 20:51:26,959 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0007
+2016-10-21 20:51:26,959 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0007, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 20:51:26,959 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.161:56548 which had sessionid 0x157e73e8efd0007
+2016-10-21 20:51:26,959 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd000b, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 20:51:26,960 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.162:47185 which had sessionid 0x157e73e8efd000b
+2016-10-21 20:51:26,961 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0004, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 20:51:26,961 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.161:56545 which had sessionid 0x157e73e8efd0004
+2016-10-21 20:51:26,961 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0005, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 20:51:26,961 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.161:56546 which had sessionid 0x157e73e8efd0005
+2016-10-21 20:51:26,961 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0009, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 20:51:26,962 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.162:47183 which had sessionid 0x157e73e8efd0009
+2016-10-21 20:51:26,962 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0008, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 20:51:26,962 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.162:47182 which had sessionid 0x157e73e8efd0008
+2016-10-21 20:51:27,098 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd000c, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 20:51:27,099 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33849 which had sessionid 0x157e73e8efd000c
+2016-10-21 20:51:38,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0008, timeout of 10000ms exceeded
+2016-10-21 20:51:38,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0004, timeout of 10000ms exceeded
+2016-10-21 20:51:38,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd000c, timeout of 10000ms exceeded
+2016-10-21 20:51:38,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0005, timeout of 10000ms exceeded
+2016-10-21 20:51:38,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0009, timeout of 10000ms exceeded
+2016-10-21 20:51:38,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0008
+2016-10-21 20:51:38,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0004
+2016-10-21 20:51:38,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd000c
+2016-10-21 20:51:38,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0005
+2016-10-21 20:51:38,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0009
+2016-10-21 21:29:41,468 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33858
+2016-10-21 21:29:41,469 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33859
+2016-10-21 21:29:41,469 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33858; will be dropped if server is in r-o mode
+2016-10-21 21:29:41,469 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33858
+2016-10-21 21:29:41,469 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33859; will be dropped if server is in r-o mode
+2016-10-21 21:29:41,469 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33859
+2016-10-21 21:29:41,469 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33860
+2016-10-21 21:29:41,470 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33861
+2016-10-21 21:29:41,470 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0010 with negotiated timeout 10000 for client /202.45.128.160:33858
+2016-10-21 21:29:41,470 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33860; will be dropped if server is in r-o mode
+2016-10-21 21:29:41,470 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33860
+2016-10-21 21:29:41,470 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33861; will be dropped if server is in r-o mode
+2016-10-21 21:29:41,470 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33861
+2016-10-21 21:29:41,470 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0011 with negotiated timeout 10000 for client /202.45.128.160:33859
+2016-10-21 21:29:41,471 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0012 with negotiated timeout 10000 for client /202.45.128.160:33860
+2016-10-21 21:29:41,471 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0013 with negotiated timeout 10000 for client /202.45.128.160:33861
+2016-10-21 21:29:41,472 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@649] - Got user-level KeeperException when processing sessionid:0x157e73e8efd0013 type:create cxid:0x580a184d zxid:0xbc txntype:-1 reqpath:n/a Error Path:/mesos Error:KeeperErrorCode = NodeExists for /mesos
+2016-10-21 21:29:41,472 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@649] - Got user-level KeeperException when processing sessionid:0x157e73e8efd0010 type:create cxid:0x580a184e zxid:0xbd txntype:-1 reqpath:n/a Error Path:/mesos Error:KeeperErrorCode = NodeExists for /mesos
+2016-10-21 21:29:41,473 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@649] - Got user-level KeeperException when processing sessionid:0x157e73e8efd0010 type:create cxid:0x580a1852 zxid:0xbf txntype:-1 reqpath:n/a Error Path:/mesos/log_replicas Error:KeeperErrorCode = NodeExists for /mesos/log_replicas
+2016-10-21 21:29:47,157 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56684
+2016-10-21 21:29:47,158 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56685
+2016-10-21 21:29:47,158 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56684; will be dropped if server is in r-o mode
+2016-10-21 21:29:47,158 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56684
+2016-10-21 21:29:47,158 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56685; will be dropped if server is in r-o mode
+2016-10-21 21:29:47,158 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56685
+2016-10-21 21:29:47,159 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56686
+2016-10-21 21:29:47,159 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56686; will be dropped if server is in r-o mode
+2016-10-21 21:29:47,159 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0014 with negotiated timeout 10000 for client /202.45.128.161:56684
+2016-10-21 21:29:47,159 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56686
+2016-10-21 21:29:47,159 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56687
+2016-10-21 21:29:47,160 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56687; will be dropped if server is in r-o mode
+2016-10-21 21:29:47,160 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0015 with negotiated timeout 10000 for client /202.45.128.161:56685
+2016-10-21 21:29:47,160 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56687
+2016-10-21 21:29:47,160 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0016 with negotiated timeout 10000 for client /202.45.128.161:56686
+2016-10-21 21:29:47,161 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0017 with negotiated timeout 10000 for client /202.45.128.161:56687
+2016-10-21 21:29:50,588 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47195
+2016-10-21 21:29:50,589 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47196
+2016-10-21 21:29:50,589 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47195; will be dropped if server is in r-o mode
+2016-10-21 21:29:50,589 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47195
+2016-10-21 21:29:50,589 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47196; will be dropped if server is in r-o mode
+2016-10-21 21:29:50,589 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47196
+2016-10-21 21:29:50,590 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0018 with negotiated timeout 10000 for client /202.45.128.162:47195
+2016-10-21 21:29:50,590 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47197
+2016-10-21 21:29:50,590 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47198
+2016-10-21 21:29:50,590 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47197; will be dropped if server is in r-o mode
+2016-10-21 21:29:50,590 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0019 with negotiated timeout 10000 for client /202.45.128.162:47196
+2016-10-21 21:29:50,590 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47197
+2016-10-21 21:29:50,591 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47198; will be dropped if server is in r-o mode
+2016-10-21 21:29:50,591 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47198
+2016-10-21 21:29:50,591 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd001a with negotiated timeout 10000 for client /202.45.128.162:47197
+2016-10-21 21:29:50,592 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd001b with negotiated timeout 10000 for client /202.45.128.162:47198
+2016-10-21 21:29:58,118 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33865
+2016-10-21 21:29:58,119 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33865; will be dropped if server is in r-o mode
+2016-10-21 21:29:58,119 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33865
+2016-10-21 21:29:58,119 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd001c with negotiated timeout 10000 for client /202.45.128.160:33865
+2016-10-21 21:30:01,992 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56692
+2016-10-21 21:30:01,992 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56692; will be dropped if server is in r-o mode
+2016-10-21 21:30:01,992 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56692
+2016-10-21 21:30:01,993 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd001d with negotiated timeout 10000 for client /202.45.128.161:56692
+2016-10-21 21:30:05,720 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47201
+2016-10-21 21:30:05,720 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47201; will be dropped if server is in r-o mode
+2016-10-21 21:30:05,720 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47201
+2016-10-21 21:30:05,721 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd001e with negotiated timeout 10000 for client /202.45.128.162:47201
+2016-10-21 21:30:41,695 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0013, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:30:41,696 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33861 which had sessionid 0x157e73e8efd0013
+2016-10-21 21:30:41,696 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0010, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:30:41,696 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33858 which had sessionid 0x157e73e8efd0010
+2016-10-21 21:30:41,697 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0011, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:30:41,697 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33859 which had sessionid 0x157e73e8efd0011
+2016-10-21 21:30:41,697 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0012, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:30:41,697 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33860 which had sessionid 0x157e73e8efd0012
+2016-10-21 21:30:52,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0012, timeout of 10000ms exceeded
+2016-10-21 21:30:52,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0010, timeout of 10000ms exceeded
+2016-10-21 21:30:52,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0011, timeout of 10000ms exceeded
+2016-10-21 21:30:52,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0013, timeout of 10000ms exceeded
+2016-10-21 21:30:52,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0012
+2016-10-21 21:30:52,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0010
+2016-10-21 21:30:52,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0011
+2016-10-21 21:30:52,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0013
+2016-10-21 21:30:52,859 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd001d, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:30:52,859 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.161:56692 which had sessionid 0x157e73e8efd001d
+2016-10-21 21:31:04,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd001d, timeout of 10000ms exceeded
+2016-10-21 21:31:04,000 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd001d
+2016-10-21 21:37:32,738 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd001b, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:37:32,738 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.162:47198 which had sessionid 0x157e73e8efd001b
+2016-10-21 21:37:32,738 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0019, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:37:32,739 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.162:47196 which had sessionid 0x157e73e8efd0019
+2016-10-21 21:37:32,739 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd001a, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:37:32,739 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.162:47197 which had sessionid 0x157e73e8efd001a
+2016-10-21 21:37:32,739 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0018, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:37:32,739 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.162:47195 which had sessionid 0x157e73e8efd0018
+2016-10-21 21:37:36,067 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd001e, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:37:36,067 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.162:47201 which had sessionid 0x157e73e8efd001e
+2016-10-21 21:37:44,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd001a, timeout of 10000ms exceeded
+2016-10-21 21:37:44,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd001b, timeout of 10000ms exceeded
+2016-10-21 21:37:44,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0019, timeout of 10000ms exceeded
+2016-10-21 21:37:44,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0018, timeout of 10000ms exceeded
+2016-10-21 21:37:44,000 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd001a
+2016-10-21 21:37:44,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd001b
+2016-10-21 21:37:44,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0019
+2016-10-21 21:37:44,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0018
+2016-10-21 21:37:44,373 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0017, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:37:44,373 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.161:56687 which had sessionid 0x157e73e8efd0017
+2016-10-21 21:37:44,373 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0015, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:37:44,374 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.161:56685 which had sessionid 0x157e73e8efd0015
+2016-10-21 21:37:44,374 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0016, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:37:44,374 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.161:56686 which had sessionid 0x157e73e8efd0016
+2016-10-21 21:37:44,374 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0014, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:37:44,374 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.161:56684 which had sessionid 0x157e73e8efd0014
+2016-10-21 21:37:46,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd001e, timeout of 10000ms exceeded
+2016-10-21 21:37:46,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd001e
+2016-10-21 21:37:56,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0014, timeout of 10000ms exceeded
+2016-10-21 21:37:56,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0017, timeout of 10000ms exceeded
+2016-10-21 21:37:56,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0015, timeout of 10000ms exceeded
+2016-10-21 21:37:56,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0016, timeout of 10000ms exceeded
+2016-10-21 21:37:56,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0014
+2016-10-21 21:37:56,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0017
+2016-10-21 21:37:56,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0015
+2016-10-21 21:37:56,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0016
+2016-10-21 21:37:57,948 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd001c, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:37:57,949 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33865 which had sessionid 0x157e73e8efd001c
+2016-10-21 21:38:08,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd001c, timeout of 10000ms exceeded
+2016-10-21 21:38:08,000 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd001c
+2016-10-21 21:38:57,236 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33872
+2016-10-21 21:38:57,236 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33871
+2016-10-21 21:38:57,237 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33872; will be dropped if server is in r-o mode
+2016-10-21 21:38:57,237 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33872
+2016-10-21 21:38:57,237 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33871; will be dropped if server is in r-o mode
+2016-10-21 21:38:57,237 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33871
+2016-10-21 21:38:57,237 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33873
+2016-10-21 21:38:57,237 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33874
+2016-10-21 21:38:57,237 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd001f with negotiated timeout 10000 for client /202.45.128.160:33872
+2016-10-21 21:38:57,238 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33873; will be dropped if server is in r-o mode
+2016-10-21 21:38:57,238 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33873
+2016-10-21 21:38:57,238 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33874; will be dropped if server is in r-o mode
+2016-10-21 21:38:57,238 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33874
+2016-10-21 21:38:57,238 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0020 with negotiated timeout 10000 for client /202.45.128.160:33871
+2016-10-21 21:38:57,239 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0021 with negotiated timeout 10000 for client /202.45.128.160:33873
+2016-10-21 21:38:57,239 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0022 with negotiated timeout 10000 for client /202.45.128.160:33874
+2016-10-21 21:38:57,240 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@649] - Got user-level KeeperException when processing sessionid:0x157e73e8efd0022 type:create cxid:0x580a1a79 zxid:0xe7 txntype:-1 reqpath:n/a Error Path:/mesos Error:KeeperErrorCode = NodeExists for /mesos
+2016-10-21 21:38:57,240 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@649] - Got user-level KeeperException when processing sessionid:0x157e73e8efd001f type:create cxid:0x580a1a7a zxid:0xe8 txntype:-1 reqpath:n/a Error Path:/mesos Error:KeeperErrorCode = NodeExists for /mesos
+2016-10-21 21:38:57,240 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@649] - Got user-level KeeperException when processing sessionid:0x157e73e8efd001f type:create cxid:0x580a1a7d zxid:0xea txntype:-1 reqpath:n/a Error Path:/mesos/log_replicas Error:KeeperErrorCode = NodeExists for /mesos/log_replicas
+2016-10-21 21:39:01,428 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56782
+2016-10-21 21:39:01,428 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56783
+2016-10-21 21:39:01,428 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56782; will be dropped if server is in r-o mode
+2016-10-21 21:39:01,429 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56782
+2016-10-21 21:39:01,429 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56783; will be dropped if server is in r-o mode
+2016-10-21 21:39:01,429 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56783
+2016-10-21 21:39:01,429 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56784
+2016-10-21 21:39:01,429 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0023 with negotiated timeout 10000 for client /202.45.128.161:56782
+2016-10-21 21:39:01,430 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56785
+2016-10-21 21:39:01,430 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56784; will be dropped if server is in r-o mode
+2016-10-21 21:39:01,430 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56784
+2016-10-21 21:39:01,430 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0024 with negotiated timeout 10000 for client /202.45.128.161:56783
+2016-10-21 21:39:01,430 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56785; will be dropped if server is in r-o mode
+2016-10-21 21:39:01,430 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56785
+2016-10-21 21:39:01,431 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0025 with negotiated timeout 10000 for client /202.45.128.161:56784
+2016-10-21 21:39:01,431 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0026 with negotiated timeout 10000 for client /202.45.128.161:56785
+2016-10-21 21:39:57,471 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0020, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:39:57,471 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33871 which had sessionid 0x157e73e8efd0020
+2016-10-21 21:39:57,471 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0022, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:39:57,472 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33874 which had sessionid 0x157e73e8efd0022
+2016-10-21 21:39:57,472 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd001f, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:39:57,472 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33872 which had sessionid 0x157e73e8efd001f
+2016-10-21 21:39:57,472 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0021, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:39:57,473 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33873 which had sessionid 0x157e73e8efd0021
+2016-10-21 21:40:06,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0021, timeout of 10000ms exceeded
+2016-10-21 21:40:06,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0022, timeout of 10000ms exceeded
+2016-10-21 21:40:06,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd001f, timeout of 10000ms exceeded
+2016-10-21 21:40:06,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0020, timeout of 10000ms exceeded
+2016-10-21 21:40:06,000 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0021
+2016-10-21 21:40:06,000 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0022
+2016-10-21 21:40:06,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd001f
+2016-10-21 21:40:06,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0020
+2016-10-21 21:40:38,814 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47205
+2016-10-21 21:40:38,814 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47205; will be dropped if server is in r-o mode
+2016-10-21 21:40:38,814 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47205
+2016-10-21 21:40:38,814 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47206
+2016-10-21 21:40:38,815 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47207
+2016-10-21 21:40:38,815 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47206; will be dropped if server is in r-o mode
+2016-10-21 21:40:38,815 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47206
+2016-10-21 21:40:38,815 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0027 with negotiated timeout 10000 for client /202.45.128.162:47205
+2016-10-21 21:40:38,815 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47207; will be dropped if server is in r-o mode
+2016-10-21 21:40:38,815 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47207
+2016-10-21 21:40:38,815 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47208
+2016-10-21 21:40:38,816 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0028 with negotiated timeout 10000 for client /202.45.128.162:47206
+2016-10-21 21:40:38,816 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47208; will be dropped if server is in r-o mode
+2016-10-21 21:40:38,816 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47208
+2016-10-21 21:40:38,816 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0029 with negotiated timeout 10000 for client /202.45.128.162:47207
+2016-10-21 21:40:38,817 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd002a with negotiated timeout 10000 for client /202.45.128.162:47208
+2016-10-21 21:41:06,206 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0023, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:41:06,207 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.161:56782 which had sessionid 0x157e73e8efd0023
+2016-10-21 21:41:06,207 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0026, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:41:06,208 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.161:56785 which had sessionid 0x157e73e8efd0026
+2016-10-21 21:41:06,208 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0025, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:41:06,208 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.161:56784 which had sessionid 0x157e73e8efd0025
+2016-10-21 21:41:06,208 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0024, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:41:06,208 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.161:56783 which had sessionid 0x157e73e8efd0024
+2016-10-21 21:41:16,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0023, timeout of 10000ms exceeded
+2016-10-21 21:41:16,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0024, timeout of 10000ms exceeded
+2016-10-21 21:41:16,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0026, timeout of 10000ms exceeded
+2016-10-21 21:41:16,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0025, timeout of 10000ms exceeded
+2016-10-21 21:41:16,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0023
+2016-10-21 21:41:16,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0024
+2016-10-21 21:41:16,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0026
+2016-10-21 21:41:16,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0025
+2016-10-21 21:42:16,206 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0027, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:42:16,207 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.162:47205 which had sessionid 0x157e73e8efd0027
+2016-10-21 21:42:16,207 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0028, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:42:16,207 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.162:47206 which had sessionid 0x157e73e8efd0028
+2016-10-21 21:42:16,207 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0029, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:42:16,207 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.162:47207 which had sessionid 0x157e73e8efd0029
+2016-10-21 21:42:16,207 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd002a, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:42:16,208 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.162:47208 which had sessionid 0x157e73e8efd002a
+2016-10-21 21:42:28,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd002a, timeout of 10000ms exceeded
+2016-10-21 21:42:28,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0028, timeout of 10000ms exceeded
+2016-10-21 21:42:28,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0029, timeout of 10000ms exceeded
+2016-10-21 21:42:28,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0027, timeout of 10000ms exceeded
+2016-10-21 21:42:28,000 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd002a
+2016-10-21 21:42:28,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0028
+2016-10-21 21:42:28,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0029
+2016-10-21 21:42:28,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0027
+2016-10-21 21:42:52,319 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47212
+2016-10-21 21:42:52,319 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47212; will be dropped if server is in r-o mode
+2016-10-21 21:42:52,319 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47212
+2016-10-21 21:42:52,320 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47211
+2016-10-21 21:42:52,320 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47211; will be dropped if server is in r-o mode
+2016-10-21 21:42:52,320 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47211
+2016-10-21 21:42:52,320 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd002b with negotiated timeout 10000 for client /202.45.128.162:47212
+2016-10-21 21:42:52,320 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47213
+2016-10-21 21:42:52,321 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47213; will be dropped if server is in r-o mode
+2016-10-21 21:42:52,321 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47213
+2016-10-21 21:42:52,321 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd002c with negotiated timeout 10000 for client /202.45.128.162:47211
+2016-10-21 21:42:52,321 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47214
+2016-10-21 21:42:52,321 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47214; will be dropped if server is in r-o mode
+2016-10-21 21:42:52,321 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47214
+2016-10-21 21:42:52,321 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd002d with negotiated timeout 10000 for client /202.45.128.162:47213
+2016-10-21 21:42:52,322 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd002e with negotiated timeout 10000 for client /202.45.128.162:47214
+2016-10-21 21:42:55,687 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56790
+2016-10-21 21:42:55,688 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56791
+2016-10-21 21:42:55,688 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56790; will be dropped if server is in r-o mode
+2016-10-21 21:42:55,688 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56790
+2016-10-21 21:42:55,688 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56791; will be dropped if server is in r-o mode
+2016-10-21 21:42:55,688 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56791
+2016-10-21 21:42:55,688 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56792
+2016-10-21 21:42:55,689 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd002f with negotiated timeout 10000 for client /202.45.128.161:56790
+2016-10-21 21:42:55,689 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56792; will be dropped if server is in r-o mode
+2016-10-21 21:42:55,689 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56792
+2016-10-21 21:42:55,689 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56793
+2016-10-21 21:42:55,689 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0030 with negotiated timeout 10000 for client /202.45.128.161:56791
+2016-10-21 21:42:55,689 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56793; will be dropped if server is in r-o mode
+2016-10-21 21:42:55,689 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56793
+2016-10-21 21:42:55,690 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0031 with negotiated timeout 10000 for client /202.45.128.161:56792
+2016-10-21 21:42:55,690 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0032 with negotiated timeout 10000 for client /202.45.128.161:56793
+2016-10-21 21:43:02,343 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33876
+2016-10-21 21:43:02,343 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33876; will be dropped if server is in r-o mode
+2016-10-21 21:43:02,343 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33876
+2016-10-21 21:43:02,343 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33877
+2016-10-21 21:43:02,344 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33877; will be dropped if server is in r-o mode
+2016-10-21 21:43:02,344 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33877
+2016-10-21 21:43:02,344 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0033 with negotiated timeout 10000 for client /202.45.128.160:33876
+2016-10-21 21:43:02,344 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33878
+2016-10-21 21:43:02,344 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33879
+2016-10-21 21:43:02,344 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33878; will be dropped if server is in r-o mode
+2016-10-21 21:43:02,344 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0034 with negotiated timeout 10000 for client /202.45.128.160:33877
+2016-10-21 21:43:02,345 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33878
+2016-10-21 21:43:02,345 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33879; will be dropped if server is in r-o mode
+2016-10-21 21:43:02,345 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33879
+2016-10-21 21:43:02,345 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0035 with negotiated timeout 10000 for client /202.45.128.160:33878
+2016-10-21 21:43:02,346 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0036 with negotiated timeout 10000 for client /202.45.128.160:33879
+2016-10-21 21:45:49,211 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33882
+2016-10-21 21:45:49,211 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33882; will be dropped if server is in r-o mode
+2016-10-21 21:45:49,211 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33882
+2016-10-21 21:45:49,212 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0037 with negotiated timeout 10000 for client /202.45.128.160:33882
+2016-10-21 21:45:53,692 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56797
+2016-10-21 21:45:53,693 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56797; will be dropped if server is in r-o mode
+2016-10-21 21:45:53,693 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56797
+2016-10-21 21:45:53,693 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0038 with negotiated timeout 10000 for client /202.45.128.161:56797
+2016-10-21 21:45:57,139 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47227
+2016-10-21 21:45:57,139 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47227; will be dropped if server is in r-o mode
+2016-10-21 21:45:57,139 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47227
+2016-10-21 21:45:57,140 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0039 with negotiated timeout 10000 for client /202.45.128.162:47227
+2016-10-21 21:45:59,824 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0039, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:45:59,825 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.162:47227 which had sessionid 0x157e73e8efd0039
+2016-10-21 21:46:08,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0039, timeout of 10000ms exceeded
+2016-10-21 21:46:08,000 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0039
+2016-10-21 21:56:22,865 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0035, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:56:22,866 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33878 which had sessionid 0x157e73e8efd0035
+2016-10-21 21:56:22,866 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0034, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:56:22,866 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33877 which had sessionid 0x157e73e8efd0034
+2016-10-21 21:56:22,866 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0033, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:56:22,866 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33876 which had sessionid 0x157e73e8efd0033
+2016-10-21 21:56:22,867 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0036, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:56:22,867 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33879 which had sessionid 0x157e73e8efd0036
+2016-10-21 21:56:30,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0033, timeout of 10000ms exceeded
+2016-10-21 21:56:30,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0035, timeout of 10000ms exceeded
+2016-10-21 21:56:30,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0034, timeout of 10000ms exceeded
+2016-10-21 21:56:30,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0036, timeout of 10000ms exceeded
+2016-10-21 21:56:30,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0033
+2016-10-21 21:56:30,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0035
+2016-10-21 21:56:30,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0034
+2016-10-21 21:56:30,002 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0036
+2016-10-21 21:56:36,705 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0037, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:56:36,705 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33882 which had sessionid 0x157e73e8efd0037
+2016-10-21 21:56:48,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0037, timeout of 10000ms exceeded
+2016-10-21 21:56:48,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0037
+2016-10-21 21:57:05,883 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd002f, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:57:05,883 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.161:56790 which had sessionid 0x157e73e8efd002f
+2016-10-21 21:57:05,883 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0030, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:57:05,884 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.161:56791 which had sessionid 0x157e73e8efd0030
+2016-10-21 21:57:05,884 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0031, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:57:05,884 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.161:56792 which had sessionid 0x157e73e8efd0031
+2016-10-21 21:57:05,884 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0032, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:57:05,884 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.161:56793 which had sessionid 0x157e73e8efd0032
+2016-10-21 21:57:14,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd002f, timeout of 10000ms exceeded
+2016-10-21 21:57:14,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0032, timeout of 10000ms exceeded
+2016-10-21 21:57:14,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0030, timeout of 10000ms exceeded
+2016-10-21 21:57:14,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0031, timeout of 10000ms exceeded
+2016-10-21 21:57:14,000 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd002f
+2016-10-21 21:57:14,000 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0032
+2016-10-21 21:57:14,000 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0030
+2016-10-21 21:57:14,000 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0031
+2016-10-21 21:57:21,098 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0038, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:57:21,098 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.161:56797 which had sessionid 0x157e73e8efd0038
+2016-10-21 21:57:28,026 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd002e, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:57:28,026 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.162:47214 which had sessionid 0x157e73e8efd002e
+2016-10-21 21:57:28,026 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd002b, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:57:28,026 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.162:47212 which had sessionid 0x157e73e8efd002b
+2016-10-21 21:57:28,027 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd002d, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:57:28,027 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.162:47213 which had sessionid 0x157e73e8efd002d
+2016-10-21 21:57:28,027 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd002c, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 21:57:28,027 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.162:47211 which had sessionid 0x157e73e8efd002c
+2016-10-21 21:57:32,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0038, timeout of 10000ms exceeded
+2016-10-21 21:57:32,000 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0038
+2016-10-21 21:57:38,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd002b, timeout of 10000ms exceeded
+2016-10-21 21:57:38,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd002d, timeout of 10000ms exceeded
+2016-10-21 21:57:38,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd002c, timeout of 10000ms exceeded
+2016-10-21 21:57:38,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd002e, timeout of 10000ms exceeded
+2016-10-21 21:57:38,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd002b
+2016-10-21 21:57:38,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd002d
+2016-10-21 21:57:38,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd002c
+2016-10-21 21:57:38,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd002e
+2016-10-21 21:57:48,125 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33887
+2016-10-21 21:57:48,125 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33887; will be dropped if server is in r-o mode
+2016-10-21 21:57:48,125 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33887
+2016-10-21 21:57:48,125 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33888
+2016-10-21 21:57:48,125 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33888; will be dropped if server is in r-o mode
+2016-10-21 21:57:48,126 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33888
+2016-10-21 21:57:48,126 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33889
+2016-10-21 21:57:48,126 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33889; will be dropped if server is in r-o mode
+2016-10-21 21:57:48,126 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd003a with negotiated timeout 10000 for client /202.45.128.160:33887
+2016-10-21 21:57:48,126 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33889
+2016-10-21 21:57:48,126 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33890
+2016-10-21 21:57:48,126 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33890; will be dropped if server is in r-o mode
+2016-10-21 21:57:48,126 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33890
+2016-10-21 21:57:48,126 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd003b with negotiated timeout 10000 for client /202.45.128.160:33888
+2016-10-21 21:57:48,127 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd003c with negotiated timeout 10000 for client /202.45.128.160:33889
+2016-10-21 21:57:48,127 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd003d with negotiated timeout 10000 for client /202.45.128.160:33890
+2016-10-21 21:57:48,128 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@649] - Got user-level KeeperException when processing sessionid:0x157e73e8efd003d type:create cxid:0x580a1ee4 zxid:0x130 txntype:-1 reqpath:n/a Error Path:/mesos Error:KeeperErrorCode = NodeExists for /mesos
+2016-10-21 21:57:48,128 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@649] - Got user-level KeeperException when processing sessionid:0x157e73e8efd003b type:create cxid:0x580a1ee5 zxid:0x131 txntype:-1 reqpath:n/a Error Path:/mesos Error:KeeperErrorCode = NodeExists for /mesos
+2016-10-21 21:57:48,129 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@649] - Got user-level KeeperException when processing sessionid:0x157e73e8efd003b type:create cxid:0x580a1ee9 zxid:0x133 txntype:-1 reqpath:n/a Error Path:/mesos/log_replicas Error:KeeperErrorCode = NodeExists for /mesos/log_replicas
+2016-10-21 21:57:51,031 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56800
+2016-10-21 21:57:51,031 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56801
+2016-10-21 21:57:51,031 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56800; will be dropped if server is in r-o mode
+2016-10-21 21:57:51,031 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56800
+2016-10-21 21:57:51,031 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56801; will be dropped if server is in r-o mode
+2016-10-21 21:57:51,032 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56801
+2016-10-21 21:57:51,032 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56802
+2016-10-21 21:57:51,032 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd003e with negotiated timeout 10000 for client /202.45.128.161:56800
+2016-10-21 21:57:51,032 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56802; will be dropped if server is in r-o mode
+2016-10-21 21:57:51,032 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56802
+2016-10-21 21:57:51,032 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56803
+2016-10-21 21:57:51,032 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd003f with negotiated timeout 10000 for client /202.45.128.161:56801
+2016-10-21 21:57:51,032 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56803; will be dropped if server is in r-o mode
+2016-10-21 21:57:51,033 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56803
+2016-10-21 21:57:51,033 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0040 with negotiated timeout 10000 for client /202.45.128.161:56802
+2016-10-21 21:57:51,034 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0041 with negotiated timeout 10000 for client /202.45.128.161:56803
+2016-10-21 21:57:54,386 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47316
+2016-10-21 21:57:54,387 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47316; will be dropped if server is in r-o mode
+2016-10-21 21:57:54,387 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47316
+2016-10-21 21:57:54,387 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47317
+2016-10-21 21:57:54,387 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47317; will be dropped if server is in r-o mode
+2016-10-21 21:57:54,387 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47317
+2016-10-21 21:57:54,387 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0042 with negotiated timeout 10000 for client /202.45.128.162:47316
+2016-10-21 21:57:54,387 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47318
+2016-10-21 21:57:54,388 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47318; will be dropped if server is in r-o mode
+2016-10-21 21:57:54,388 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0043 with negotiated timeout 10000 for client /202.45.128.162:47317
+2016-10-21 21:57:54,388 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47318
+2016-10-21 21:57:54,388 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47319
+2016-10-21 21:57:54,388 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47319; will be dropped if server is in r-o mode
+2016-10-21 21:57:54,388 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47319
+2016-10-21 21:57:54,388 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0044 with negotiated timeout 10000 for client /202.45.128.162:47318
+2016-10-21 21:57:54,389 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0045 with negotiated timeout 10000 for client /202.45.128.162:47319
+2016-10-21 21:59:17,612 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33894
+2016-10-21 21:59:17,612 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33894; will be dropped if server is in r-o mode
+2016-10-21 21:59:17,612 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33894
+2016-10-21 21:59:17,613 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0046 with negotiated timeout 10000 for client /202.45.128.160:33894
+2016-10-21 21:59:24,790 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.161:56808
+2016-10-21 21:59:24,791 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.161:56808; will be dropped if server is in r-o mode
+2016-10-21 21:59:24,791 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.161:56808
+2016-10-21 21:59:24,792 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0047 with negotiated timeout 10000 for client /202.45.128.161:56808
+2016-10-21 22:00:25,553 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.162:47324
+2016-10-21 22:00:25,553 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.162:47324; will be dropped if server is in r-o mode
+2016-10-21 22:00:25,553 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.162:47324
+2016-10-21 22:00:25,554 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0048 with negotiated timeout 10000 for client /202.45.128.162:47324
+2016-10-21 23:11:42,143 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33913
+2016-10-21 23:11:42,144 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33913
+2016-10-21 23:11:42,145 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd0049 with negotiated timeout 10000 for client /202.45.128.160:33913
+2016-10-21 23:11:43,659 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33914
+2016-10-21 23:11:43,659 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33914
+2016-10-21 23:11:43,660 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd004a with negotiated timeout 10000 for client /202.45.128.160:33914
+2016-10-21 23:11:43,801 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33915
+2016-10-21 23:11:43,801 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33915; will be dropped if server is in r-o mode
+2016-10-21 23:11:43,802 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33915
+2016-10-21 23:11:43,802 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd004b with negotiated timeout 10000 for client /202.45.128.160:33915
+2016-10-21 23:13:56,374 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd0049, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 23:13:56,375 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33913 which had sessionid 0x157e73e8efd0049
+2016-10-21 23:13:56,375 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd004a, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 23:13:56,375 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33914 which had sessionid 0x157e73e8efd004a
+2016-10-21 23:13:56,376 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd004b, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-21 23:13:56,376 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33915 which had sessionid 0x157e73e8efd004b
+2016-10-21 23:14:04,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd004b, timeout of 10000ms exceeded
+2016-10-21 23:14:04,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd004a, timeout of 10000ms exceeded
+2016-10-21 23:14:04,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd004b
+2016-10-21 23:14:04,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd004a
+2016-10-21 23:14:08,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0049, timeout of 10000ms exceeded
+2016-10-21 23:14:08,000 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0049
+2016-10-21 23:14:55,413 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33924
+2016-10-21 23:14:55,415 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33924
+2016-10-21 23:14:55,415 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd004c with negotiated timeout 10000 for client /202.45.128.160:33924
+2016-10-21 23:14:56,921 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33925
+2016-10-21 23:14:56,922 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33925
+2016-10-21 23:14:56,922 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd004d with negotiated timeout 10000 for client /202.45.128.160:33925
+2016-10-21 23:14:57,085 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /202.45.128.160:33926
+2016-10-21 23:14:57,086 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@882] - Connection request from old client /202.45.128.160:33926; will be dropped if server is in r-o mode
+2016-10-21 23:14:57,086 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@928] - Client attempting to establish new session at /202.45.128.160:33926
+2016-10-21 23:14:57,086 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@673] - Established session 0x157e73e8efd004e with negotiated timeout 10000 for client /202.45.128.160:33926
+2016-10-21 23:49:05,418 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd000f
+2016-10-21 23:49:05,419 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /127.0.0.1:49282 which had sessionid 0x157e73e8efd000f
+2016-10-22 13:37:22,017 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd003a, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-22 13:37:22,017 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33887 which had sessionid 0x157e73e8efd003a
+2016-10-22 13:37:22,017 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd003b, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-22 13:37:22,018 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33888 which had sessionid 0x157e73e8efd003b
+2016-10-22 13:37:22,018 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd003d, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-22 13:37:22,018 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33890 which had sessionid 0x157e73e8efd003d
+2016-10-22 13:37:22,018 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd003c, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-22 13:37:22,018 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33889 which had sessionid 0x157e73e8efd003c
+2016-10-22 13:37:24,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd0046, timeout of 10000ms exceeded
+2016-10-22 13:37:24,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd0046
+2016-10-22 13:37:24,001 [myid:] - INFO  [SyncThread:0:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33894 which had sessionid 0x157e73e8efd0046
+2016-10-22 13:37:30,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd003c, timeout of 10000ms exceeded
+2016-10-22 13:37:30,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd003d, timeout of 10000ms exceeded
+2016-10-22 13:37:30,000 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd003c
+2016-10-22 13:37:30,000 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd003d
+2016-10-22 13:37:32,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd003a, timeout of 10000ms exceeded
+2016-10-22 13:37:32,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd003b, timeout of 10000ms exceeded
+2016-10-22 13:37:32,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd003a
+2016-10-22 13:37:32,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd003b
+2016-10-22 13:37:34,256 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd004c, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-22 13:37:34,256 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33924 which had sessionid 0x157e73e8efd004c
+2016-10-22 13:37:34,257 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd004e, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-22 13:37:34,257 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33926 which had sessionid 0x157e73e8efd004e
+2016-10-22 13:37:34,257 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@357] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x157e73e8efd004d, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-22 13:37:34,257 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1008] - Closed socket connection for client /202.45.128.160:33925 which had sessionid 0x157e73e8efd004d
+2016-10-22 13:37:44,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd004e, timeout of 10000ms exceeded
+2016-10-22 13:37:44,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd004d, timeout of 10000ms exceeded
+2016-10-22 13:37:44,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x157e73e8efd004c, timeout of 10000ms exceeded
+2016-10-22 13:37:44,000 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd004e
+2016-10-22 13:37:44,000 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd004d
+2016-10-22 13:37:44,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x157e73e8efd004c
