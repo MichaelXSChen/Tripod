@@ -11,5 +11,6 @@ echo $host
 done
 ./zookeeper-3.4.9/bin/zkCli.sh rmr /mesos
 ./zookeeper-3.4.9/bin/zkCli.sh rmr /marathon
-
+./zookeeper-3.4.9/bin/zkCli.sh rmr /MrRedis
+	
 

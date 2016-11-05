@@ -1,0 +1,47 @@
+2016/11/05 22:54:21 [1;33m[config.go:314] [W] open /home/xusheng/tripod/applications/mr-redis/conf/app.conf: no such file or directory [0m
+ZOO CREATE SECTION K=/MrRedis 
+ZOO CREATE SECTION K=/MrRedis/Instances 
+ZOO CREATE SECTION K=/MrRedis/Config 
+2016/11/05 22:54:21 [1;34m[asm_amd64.s:2086] [I] http server Running on :5656[0m
+ZOO K=/MrRedis/Config/FrameworkID V=7fade78f-f0d5-43d8-aa14-b8872ed6db16-0001
+ZOO K=/MrRedis/Config/RegisteredAt V=2016-11-05 22:54:21.527890932 +0800 HKT
+2016/11/05 22:54:29 [1;34m[router.go:854] [D] | GET        | /v1/STATUS                               | 76.984µs         | match      | /v1/STATUS/                              | [0m
+ZOO CREATE SECTION K=/MrRedis/Instances/radis-191/ 
+ZOO K=/MrRedis/Instances/radis-191/Type V=MS
+ZOO K=/MrRedis/Instances/radis-191/Masters V=0
+ZOO K=/MrRedis/Instances/radis-191/Slaves V=0
+ZOO K=/MrRedis/Instances/radis-191/Capacity V=200
+ZOO K=/MrRedis/Instances/radis-191/ExpMasters V=1
+ZOO K=/MrRedis/Instances/radis-191/ExpSlaves V=2
+ZOO K=/MrRedis/Instances/radis-191/Status V=CREATING
+ZOO K=/MrRedis/Instances/radis-191/Mname V=
+ZOO K=/MrRedis/Instances/radis-191/DValue V=1
+ZOO CREATE SECTION K=/MrRedis/Instances/radis-191/Snames/ 
+ZOO CREATE SECTION K=/MrRedis/Instances/radis-191/Procs/ 
+2016/11/05 22:54:29 [1;34m[router.go:854] [D] | POST       | /v1/CREATE/radis-191/200/1/2             | 25.267558ms      | match      | /v1/CREATE/:INSTANCENAME/:CAPACITY/:MASTERS/:SLAVES | [0m
+ZOO K=/MrRedis/Instances/radis-191/Masters V=1
+ZOO K=/MrRedis/Instances/radis-191/Mname V=27830214-1732-4d65-4d3c-b4c6ecc62545
+ZOO K=/MrRedis/Instances/radis-191/Slaves V=1
+ZOO CREATE SECTION K=/MrRedis/Instances/radis-191/Snames/ 
+ZOO K=/MrRedis/Instances/radis-191/Snames/20720cef-671d-4022-423d-f77d82113c87 V=20720cef-671d-4022-423d-f77d82113c87
+ZOO K=/MrRedis/Instances/radis-191/Slaves V=2
+ZOO CREATE SECTION K=/MrRedis/Instances/radis-191/Snames/ 
+ZOO K=/MrRedis/Instances/radis-191/Snames/20720cef-671d-4022-423d-f77d82113c87 V=20720cef-671d-4022-423d-f77d82113c87
+ZOO K=/MrRedis/Instances/radis-191/Snames/cfbf81b5-10e0-4cd2-4044-d3ac0a8fb535 V=cfbf81b5-10e0-4cd2-4044-d3ac0a8fb535
+ZOO K=/MrRedis/Instances/radis-191/Status V=RUNNING
+ZOO K=/MrRedis/Instances/radis-191/Slaves V=1
+ZOO CREATE SECTION K=/MrRedis/Instances/radis-191/Snames/ 
+ZOO K=/MrRedis/Instances/radis-191/Snames/cfbf81b5-10e0-4cd2-4044-d3ac0a8fb535 V=cfbf81b5-10e0-4cd2-4044-d3ac0a8fb535
+ZOO K=/MrRedis/Instances/radis-191/Slaves V=2
+ZOO CREATE SECTION K=/MrRedis/Instances/radis-191/Snames/ 
+ZOO K=/MrRedis/Instances/radis-191/Snames/cfbf81b5-10e0-4cd2-4044-d3ac0a8fb535 V=cfbf81b5-10e0-4cd2-4044-d3ac0a8fb535
+ZOO K=/MrRedis/Instances/radis-191/Snames/74f129d0-9f24-41be-776a-094375bbd6d2 V=74f129d0-9f24-41be-776a-094375bbd6d2
+ZOO K=/MrRedis/Instances/radis-191/Status V=RUNNING
+ZOO K=/MrRedis/Instances/radis-191/Slaves V=1
+ZOO CREATE SECTION K=/MrRedis/Instances/radis-191/Snames/ 
+ZOO K=/MrRedis/Instances/radis-191/Snames/cfbf81b5-10e0-4cd2-4044-d3ac0a8fb535 V=cfbf81b5-10e0-4cd2-4044-d3ac0a8fb535
+ZOO K=/MrRedis/Instances/radis-191/Slaves V=2
+ZOO CREATE SECTION K=/MrRedis/Instances/radis-191/Snames/ 
+ZOO K=/MrRedis/Instances/radis-191/Snames/cfbf81b5-10e0-4cd2-4044-d3ac0a8fb535 V=cfbf81b5-10e0-4cd2-4044-d3ac0a8fb535
+ZOO K=/MrRedis/Instances/radis-191/Snames/3dd508c2-c626-4749-5384-decb815a0c4f V=3dd508c2-c626-4749-5384-decb815a0c4f
+ZOO K=/MrRedis/Instances/radis-191/Status V=RUNNING

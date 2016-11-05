@@ -1,0 +1,13 @@
+{
+   "UserName": "xusheng",
+   "FrameworkName": "MrRedis",
+   "Master": "zk://202.45.128.160:2181/mesos",
+   "ExecutorPath": "/home/xusheng/MrRedisExecutor",
+   "RedisImage": "redis:3.0-alpine",
+   "DBType": "zookeeper",
+   "DBEndPoint": "202.45.128.160:2181",
+   "LogFile": "stderr",
+   "ArtifactIP": "202.45.128.160",
+   "ArtifactPort": "5454",
+   "HTTPPort": "5656"
+}

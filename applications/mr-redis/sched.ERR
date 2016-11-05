@@ -1,0 +1,74 @@
+2016/11/05 22:54:21 Configuration file is = {xusheng MrRedis zk://202.45.128.160:2181/mesos /home/xusheng/MrRedisExecutor redis:3.0-alpine zookeeper 202.45.128.160:2181 stderr 202.45.128.160 5454 5656}
+2016/11/05 22:54:21 *****************************************************************
+2016/11/05 22:54:21 *********************Starting MrRedis-Scheduler******************
+2016/11/05 22:54:21 *****************************************************************
+2016/11/05 22:54:21 Connected to 202.45.128.160:2181
+2016/11/05 22:54:21 Authenticated: id=96815000803082542, timeout=40000
+2016/11/05 22:54:21 Starting the HTTP server at port 5656
+2016/11/05 22:54:21 Hosting artifact '/home/xusheng/MrRedisExecutor' at 'http://202.45.128.160:5454/MrRedisExecutor'
+2016/11/05 22:54:21 Scheduler Maintainer is starting
+2016/11/05 22:54:21 hostIP = 202.45.128.160 going to listen and serve
+2016/11/05 22:54:21 Not registered previously
+2016/11/05 22:54:21 The Framework ID is &FrameworkID{Value:*,XXX_unrecognized:[],} and &FrameworkID{Value:*,XXX_unrecognized:[],}
+2016/11/05 22:54:21 Connected to 202.45.128.160:2181
+2016/11/05 22:54:21 Authenticated: id=96815000803082543, timeout=40000
+2016/11/05 22:54:21 MrRedis Registered &FrameworkID{Value:*7fade78f-f0d5-43d8-aa14-b8872ed6db16-0001,XXX_unrecognized:[],}
+2016/11/05 22:54:29 Instance Name=radis-191, Capacity=200, masters=1, slaves=2
+2016/11/05 22:54:29 Received offer {true 0xc4201e8870 1}
+2016/11/05 22:54:29 Created 1 master offers for Instance radis-191
+2016/11/05 22:54:31 Received Offer with CPU=24 MEM=63297 OfferID=7fade78f-f0d5-43d8-aa14-b8872ed6db16-O18
+2016/11/05 22:54:31 Launched 1 tasks from this offer
+2016/11/05 22:54:31 Received Offer with CPU=24 MEM=63169 OfferID=7fade78f-f0d5-43d8-aa14-b8872ed6db16-O19
+2016/11/05 22:54:31 Launched 0 tasks from this offer
+2016/11/05 22:54:31 Received Offer with CPU=24 MEM=63169 OfferID=7fade78f-f0d5-43d8-aa14-b8872ed6db16-O20
+2016/11/05 22:54:31 Launched 0 tasks from this offer
+2016/11/05 22:54:31 MrRedis Receives offer
+2016/11/05 22:54:39 MrRedis Task Update received
+2016/11/05 22:54:39 Status={radis-191::27830214-1732-4d65-4d3c-b4c6ecc62545 TASK_RUNNING 7fade78f-f0d5-43d8-aa14-b8872ed6db16-S2 []}
+2016/11/05 22:54:39 Received a Task update from the channel &{radis-191::27830214-1732-4d65-4d3c-b4c6ecc62545 TASK_RUNNING 7fade78f-f0d5-43d8-aa14-b8872ed6db16-S2 []}
+2016/11/05 22:54:39 Invalid Key /MrRedis/Instances/radis-191/Procs/, Cannot load
+2016/11/05 22:54:39 Task radis-191::27830214-1732-4d65-4d3c-b4c6ecc62545 is Running
+2016/11/05 22:54:39 Received offer {false 0xc4201e8870 2}
+2016/11/05 22:54:39 Created 2 slave offers for Instance radis-191
+2016/11/05 22:54:41 Received Offer with CPU=24 MEM=63169 OfferID=7fade78f-f0d5-43d8-aa14-b8872ed6db16-O24
+2016/11/05 22:54:41 Launched 1 tasks from this offer
+2016/11/05 22:54:41 Received Offer with CPU=24 MEM=63169 OfferID=7fade78f-f0d5-43d8-aa14-b8872ed6db16-O25
+2016/11/05 22:54:41 Launched 1 tasks from this offer
+2016/11/05 22:54:41 Received Offer with CPU=23 MEM=63097 OfferID=7fade78f-f0d5-43d8-aa14-b8872ed6db16-O26
+2016/11/05 22:54:41 Launched 0 tasks from this offer
+2016/11/05 22:54:41 MrRedis Receives offer
+2016/11/05 22:54:51 MrRedis Task Update received
+2016/11/05 22:54:51 Status={radis-191::20720cef-671d-4022-423d-f77d82113c87 TASK_RUNNING 7fade78f-f0d5-43d8-aa14-b8872ed6db16-S1 []}
+2016/11/05 22:54:51 Received a Task update from the channel &{radis-191::20720cef-671d-4022-423d-f77d82113c87 TASK_RUNNING 7fade78f-f0d5-43d8-aa14-b8872ed6db16-S1 []}
+2016/11/05 22:54:51 Task radis-191::20720cef-671d-4022-423d-f77d82113c87 is Running
+2016/11/05 22:54:52 MrRedis Task Update received
+2016/11/05 22:54:52 Status={radis-191::cfbf81b5-10e0-4cd2-4044-d3ac0a8fb535 TASK_RUNNING 7fade78f-f0d5-43d8-aa14-b8872ed6db16-S0 []}
+2016/11/05 22:54:52 Received a Task update from the channel &{radis-191::cfbf81b5-10e0-4cd2-4044-d3ac0a8fb535 TASK_RUNNING 7fade78f-f0d5-43d8-aa14-b8872ed6db16-S0 []}
+2016/11/05 22:54:52 Task radis-191::cfbf81b5-10e0-4cd2-4044-d3ac0a8fb535 is Running
+2016/11/05 22:55:28 executor "&ExecutorID{Value:*default,XXX_unrecognized:[],}" lost on slave "&SlaveID{Value:*7fade78f-f0d5-43d8-aa14-b8872ed6db16-S1,XXX_unrecognized:[],}" code 36608
+2016/11/05 22:55:28 MrRedis Task Update received
+2016/11/05 22:55:28 Status={radis-191::20720cef-671d-4022-423d-f77d82113c87 TASK_FAILED 7fade78f-f0d5-43d8-aa14-b8872ed6db16-S1 []}
+2016/11/05 22:55:28 Received a Task update from the channel &{radis-191::20720cef-671d-4022-423d-f77d82113c87 TASK_FAILED 7fade78f-f0d5-43d8-aa14-b8872ed6db16-S1 []}
+2016/11/05 22:55:28 Task radis-191::20720cef-671d-4022-423d-f77d82113c87 is Failed
+2016/11/05 22:55:28 Received offer {false 0xc4201e8870 1}
+2016/11/05 22:55:28 Created 1 slave offers for Instance radis-191
+2016/11/05 22:55:28 Received Offer with CPU=24 MEM=63169 OfferID=7fade78f-f0d5-43d8-aa14-b8872ed6db16-O54
+2016/11/05 22:55:28 Launched 1 tasks from this offer
+2016/11/05 22:55:28 MrRedis Receives offer
+2016/11/05 22:55:34 MrRedis Task Update received
+2016/11/05 22:55:34 Status={radis-191::74f129d0-9f24-41be-776a-094375bbd6d2 TASK_RUNNING 7fade78f-f0d5-43d8-aa14-b8872ed6db16-S1 []}
+2016/11/05 22:55:34 Received a Task update from the channel &{radis-191::74f129d0-9f24-41be-776a-094375bbd6d2 TASK_RUNNING 7fade78f-f0d5-43d8-aa14-b8872ed6db16-S1 []}
+2016/11/05 22:55:34 MrRedis Task Update received
+2016/11/05 22:55:34 Status={radis-191::74f129d0-9f24-41be-776a-094375bbd6d2 TASK_FAILED 7fade78f-f0d5-43d8-aa14-b8872ed6db16-S1 []}
+2016/11/05 22:55:34 Task radis-191::74f129d0-9f24-41be-776a-094375bbd6d2 is Running
+2016/11/05 22:55:34 Received a Task update from the channel &{radis-191::74f129d0-9f24-41be-776a-094375bbd6d2 TASK_FAILED 7fade78f-f0d5-43d8-aa14-b8872ed6db16-S1 []}
+2016/11/05 22:55:34 Task radis-191::74f129d0-9f24-41be-776a-094375bbd6d2 is Failed
+2016/11/05 22:55:34 Received offer {false 0xc4201e8870 1}
+2016/11/05 22:55:34 Created 1 slave offers for Instance radis-191
+2016/11/05 22:55:35 Received Offer with CPU=24 MEM=63169 OfferID=7fade78f-f0d5-43d8-aa14-b8872ed6db16-O58
+2016/11/05 22:55:35 Launched 1 tasks from this offer
+2016/11/05 22:55:35 MrRedis Receives offer
+2016/11/05 22:55:40 MrRedis Task Update received
+2016/11/05 22:55:40 Status={radis-191::3dd508c2-c626-4749-5384-decb815a0c4f TASK_RUNNING 7fade78f-f0d5-43d8-aa14-b8872ed6db16-S1 []}
+2016/11/05 22:55:40 Received a Task update from the channel &{radis-191::3dd508c2-c626-4749-5384-decb815a0c4f TASK_RUNNING 7fade78f-f0d5-43d8-aa14-b8872ed6db16-S1 []}
+2016/11/05 22:55:40 Task radis-191::3dd508c2-c626-4749-5384-decb815a0c4f is Running
